@@ -23,7 +23,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "UMLAUT";
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
@@ -33,7 +33,7 @@
             label = "KP_SEPERATOR";
             #binding-cells = <0>;
             bindings = <&kp KP_DOT>, <&kp KP_COMMA>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <200>;
         };
 
         caps: capslock {
@@ -41,7 +41,7 @@
             label = "CAPSLOCK";
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPSLOCK>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <200>;
         };
 
         bspc_del: backspace_delete {
