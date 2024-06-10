@@ -17,6 +17,8 @@
 #define FUNC    3
 #define GAME    4
 
+&lt { tapping-term-ms = <500>; };
+
 / {
     behaviors {
         uml: umlaut {
