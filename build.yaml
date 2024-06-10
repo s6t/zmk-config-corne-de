@@ -21,13 +21,13 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: corne_left nice_view_adapter nice_view
+    shield: corne_left nice_view_adapter nice_view_custom
     cmake-args: -D'CONFIG_ZMK_KEYBOARD_NAME="Corne nice!nano"'
-    artifact-name: corne_left-nice_view-nice_nano_v2-zmk
+    artifact-name: corne_left-nice_view_custom-nice_nano_v2-zmk
   - board: nice_nano_v2
-    shield: corne_right nice_view_adapter nice_view
+    shield: corne_right nice_view_adapter nice_view_custom
     cmake-args: -D'CONFIG_ZMK_KEYBOARD_NAME="Corne nice!nano"'
-    artifact-name: corne_right-nice_view-nice_nano_v2-zmk
+    artifact-name: corne_right-nice_view_custom-nice_nano_v2-zmk
   - board: nice_nano_v2
     shield: settings_reset
   - board: nice_nano_v2
